@@ -23,3 +23,21 @@ In the left menu you can go to the Firestore Database to enable it.
 ### Enable Authentication
 
 Go to the authentication and enable the "Email/Password" method. After enabling the method, click on the "Users" tab and create a new user.
+
+## Deploy to Firebase hosting
+
+### Install Firebase CLI
+
+Run in `npm i -g firebase-tools` in your terminal
+
+### Init Firebase tools
+
+In you Angular project run `firebase init`. Select "Hosting" and pick you project from the existing projects. (if it's the first time you use firebase tools, you have to login)
+
+### Build Angular app
+
+Run `ng build` like you would normally build your Angular app.
+
+### Deploy to the web
+
+Deploy your project to the web by running `firebase deploy`.
