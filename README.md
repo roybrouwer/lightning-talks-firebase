@@ -10,7 +10,7 @@ You can add a web app in the project settings, in the "Your apps" section.
 
 ### Copy the web app config
 
-After creating the web app, you can copy the config to the Angular environment files.
+After creating the web app, copy the config to the Angular environment files.
 
 ### Create a new Firebase project
 
