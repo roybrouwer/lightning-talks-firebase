@@ -1,0 +1,8 @@
+<ng-container *ngIf="authState$ | async; else login">
+  <app-todo *ngFor="let todo of todos$ | async" [todo]="todo"></app-todo>
+  <app-form></app-form>
+</ng-container>
+
+<ng-template #login>
+  <app-login></app-login>
+</ng-template>
