@@ -28,7 +28,7 @@ Go to the authentication and enable the "Email/Password" method. After enabling 
 
 #### Install Firebase CLI
 
-Run in `npm i -g firebase-tools` in your terminal
+Run in `npm install -g firebase-tools` in your terminal
 
 #### Init Firebase tools
 
