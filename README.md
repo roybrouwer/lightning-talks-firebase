@@ -10,7 +10,7 @@ Go to https://console.firebase.google.com/ and create a new project.
 
 #### Create a web app
 
-You can add a web app in the project settings, in the "Your apps" section.
+You can add a web app in the project settings, in the "Your apps" section. Check the "Also setup Firebase Hosting" checkbox.
 
 #### Copy the web app config
 
